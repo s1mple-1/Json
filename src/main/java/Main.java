@@ -76,7 +76,7 @@ public class Main {
                 }
             }
             System.out.println("");
-        }
+        } else System.out.println("Ошибка, передан пустой параметр");
     }
 
     private static String dateFromString(String date, String inputPattern, String outputPattern) {
